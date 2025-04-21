@@ -1,0 +1,47 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.env/
+.venv/
+venv/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Archives or temp files
+*.bak
+*.tmp
+
+# Ignore editor/project settings
+.vscode/
+.idea/
+*.code-workspace
+
+# Ignore all output/ data by default...
+data/output/*
+# except this README
+!data/output/README.md
+
+# Ignore all archives, PDFs, and CSVs
+*.csv
+*.pdf
+*.zip
+*.tar.gz
+*.7z
+
+# Allow those files inside 'data/source' and 'posts'
+!data/source/**/*.csv
+!data/source/**/*.pdf
+!data/source/**/*.zip
+!posts/**/*.csv
+!posts/**/*.pdf
+!posts/**/*.zip
+
