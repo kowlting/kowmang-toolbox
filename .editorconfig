@@ -1,0 +1,40 @@
+# .editorconfig for Kowmang Toolbox
+# Enforces consistent style across Python, Markdown, YAML, JSON, and CSV files
+root = true
+
+# Default settings for all files
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# Python: standard 4-space indentation
+[*.py]
+indent_style = space
+indent_size = 4
+
+# Markdown: Typora-compatible, preserve trailing spaces for line breaks
+[*.md]
+indent_style = space
+indent_size = 2
+trim_trailing_whitespace = false
+insert_final_newline = true
+
+# YAML: 2-space indentation is conventional
+[*.yml]
+indent_style = space
+indent_size = 2
+
+# JSON: typically 2-space for nested structures
+[*.json]
+indent_style = space
+indent_size = 2
+
+# CSV: preserve formatting, document semicolon delimiter usage
+[*.csv]
+# NOTE: All CSV files in this repo use semicolon (;) as delimiter by convention.
+trim_trailing_whitespace = false
+end_of_line = lf
+insert_final_newline = true
+
