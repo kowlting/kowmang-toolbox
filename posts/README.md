@@ -4,12 +4,13 @@ This folder contains support materials, data files, and extras related to indivi
 
 Each subfolder is named using the format:
 
-```
+```text
 YYYY-MM_slug-of-topic/
 ```
 
 For example:
-```
+
+```text
 2025-04_transit-tables/
 ```
 
